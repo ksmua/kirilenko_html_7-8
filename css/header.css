@@ -1,0 +1,37 @@
+.bg_wrapper {
+	height: 840px;
+	background: url(../img/bg.jpg) no-repeat;
+	background-position: center 56.5%;
+	background-size: cover;
+	 /*contain;*/
+}
+header {
+	height: 280px;
+	color: white;
+}
+.header-wraper {
+	padding-top: 70px;
+}
+.logo {
+	display: block;
+	float: left;
+	background: green;
+}
+.logo__p {
+	font-family: "League Gothic Regular";
+	font-size: 48px;
+	line-height: 33px;
+}
+.logo__p--red {
+	color: red;
+}
+.maim_contemt {
+	font-family: 
+}
+.nav-menu {
+	float: right;
+}
+.nav-menu__list__element {
+	display: inline-block;
+	background: green;
+}

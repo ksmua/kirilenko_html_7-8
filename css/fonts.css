@@ -1,0 +1,36 @@
+
+
+/* font-family: "Open SansL ight"; */
+@font-face {
+    font-family: "Open Sans Light";
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+    url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype"),
+    url("../fonts/OpenSansLight/OpenSansLight.otf") format("truetype"),
+    url("../fonts/OpenSansLight/OpenSansLight.svg#Open Sans Light") format("svg");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*
+@font-face {
+	font-family: "Open Sans Light";
+    src: url("//db.onlinewebfonts.com/t/1bf71be111189e76987a4bb9b3115cb7.eot");
+    src: url("//db.onlinewebfonts.com/t/1bf71be111189e76987a4bb9b3115cb7.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/1bf71be111189e76987a4bb9b3115cb7.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/1bf71be111189e76987a4bb9b3115cb7.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/1bf71be111189e76987a4bb9b3115cb7.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/1bf71be111189e76987a4bb9b3115cb7.svg#Open Sans Light") format("svg");
+}*/
+
+/* font-family: "League Gothic Regular"; */
+@font-face {
+    font-family: "League Gothic Regular";
+    src: url("../fonts/LeagueGothicRegular/LeagueGothicRegular.eot");
+    src: url("../fonts/LeagueGothicRegular/LeagueGothicRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LeagueGothicRegular/LeagueGothicRegular.woff") format("woff"),
+    url("../fonts/LeagueGothicRegular/LeagueGothicRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
