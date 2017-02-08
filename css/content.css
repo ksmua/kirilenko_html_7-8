@@ -1,21 +1,20 @@
-.main-content {
+.blurb-wraper {
 	background:  linear-gradient(to top, #322539, #745083);
-}
-.main-violet {
-	margin: 0 auto; 
-	height: 340px;
 	border-top: 1px solid #33253a;
 	border-bottom: 1px solid #1d2f37;
-	/*background:  linear-gradient(to top, #322539, #745083);*/
 }
-.main-violet__article {
+.blurb {
+	height: 340px;
+}
+.blurb__article {
 	position: relative;
 	float: left;
 	max-width: 275px;
+	height: 340px;
 	color: white;
 	overflow: hidden;
 }
-.main-violet__article--1::before {
+.blurb__article--1::before {
 	content: "";
 	height: 30px; width: 30px;
 	position: absolute;
@@ -25,7 +24,7 @@
 	background: url(../img/sprite1.png) no-repeat;
 	background-position: 0 0;
 }
-.main-violet__article--2::before {
+.blurb__article--2::before {
 	content: "";
 	height: 30px;	width: 30px;
 	position: absolute;
@@ -35,7 +34,7 @@
 	background: url(../img/sprite1.png) no-repeat;
 	background-position: -32px 0;
 }
-.main-violet__article--3::before {
+.blurb__article--3::before {
 	content: "";
 	height: 30px; width: 30px;
 	position: absolute;
@@ -45,16 +44,80 @@
 	background: url(../img/sprite1.png) no-repeat;
 	background-position: -64px 0;
 }
-
-.main-violet__p,
-.main-violet__h3 {
-	padding-left: 62px 
+.blurb__p,
+.blurb__h3,
+.testimonials__p,
+.testimonials__h3 {
+	display: block;
+	padding-left: 62px; 
+	overflow: hidden;
 }
-.main-violet__h3 {
+/*.blurb__h3 {
 	font-family: "League Gothic Regular";
 	font-size: 30px;
+}*/
+.blurb__p {
+	height: 150px;
+	overflow: hidden;
 }
-.main-violet__p {
+.read-more {
+	display: block;
+	float: right;
+	font-family: "League Gothic Regular";
+	font-size: 18px;
+	line-height: 24px;
+}
+.read-more:hover {
+	text-shadow: 0 0 10px #fff;
+}
+
+.blurb__h3,
+.testimonials__h3 {
+	font-family: "League Gothic Regular";
+	font-size: 30px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.blurb__p,
+.testimonials__p {
 	font-family: "Open Sans Light";
 	font-size: 16px;
+	line-height: 24px;
+}
+
+.testimonials {
+	float: left;
+	width: 49%;
+	height: 204px;
+	position: relative;
+	/*background: #ccc;*/
+	color: #454545;
+}
+.testimonials__article {
+	float: left;
+}
+.testimonials__h3--mod {
+	color: #edbfff;
+}
+.testimonials:before {
+	position: absolute;
+	top: -10px; left: -10px;
+	content: "";
+	height: 47px; width: 47px;
+	border-radius: 50%;
+	background: url(../img/testimonials_ava.png) no-repeat; 
+	background-position: center;
+}
+
+
+.from-blog {
+	float: right;
+	height: 200px;
+	width: 49%;
+	/*!!!!!!!!!!!!!!!!!*/
+}
+.blog-post__h3 {
+	font-family: "Open Sans Extrabold";
+	font-size: 16px;
+	line-height: 24px;
 }

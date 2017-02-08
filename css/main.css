@@ -16,7 +16,7 @@ body {
 }
 */
 .clearfix::after {
-    content: "";
+    content: "#######################";
     clear: both;
     display: table;
     color: green;
@@ -37,15 +37,17 @@ input {
   padding: 0;
   list-style-type: none;   
 }
-/*++++++++++++ GENERAL+++++++++++++*/
-
-
-/*++++++++++++ MAIN +++++++++++++++*/
 .positioner {
 	margin: 0 auto;
 	width: 960px;
 	position: relative;
 }
+body {
+	color: #f9f9f9; 
+}
+
+
+/*++++++++++++ MAIN +++++++++++++++*/
 
 .slider {
 	font-family: "League Gothic Regular";
