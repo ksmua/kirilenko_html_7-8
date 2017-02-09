@@ -72,14 +72,16 @@
 }
 
 .blurb__h3,
-.testimonials__h3 {
+.testimonials__h3,
+.from-blog__h3 {
 	font-family: "League Gothic Regular";
 	font-size: 30px;
 	line-height: 24px;
 	text-transform: uppercase;
 }
 .blurb__p,
-.testimonials__p {
+.testimonials__p,
+.blog-post__p {
 	font-family: "Open Sans Light";
 	font-size: 16px;
 	line-height: 24px;
@@ -87,14 +89,15 @@
 
 .testimonials {
 	float: left;
-	width: 49%;
-	height: 204px;
 	position: relative;
+	width: 49%;
 	/*background: #ccc;*/
 	color: #454545;
 }
 .testimonials__article {
-	float: left;
+	height: 204px;
+	/*float: left;*/
+	overflow: hidden;
 }
 .testimonials__h3--mod {
 	color: #edbfff;
@@ -108,16 +111,80 @@
 	background: url(../img/testimonials_ava.png) no-repeat; 
 	background-position: center;
 }
+.slider-switcher-wrapper{
+	text-align: center;
+}
+.slider-switcher {
+	display: inline-block;
+	background: black;
+}
+.slider-switcher__elem {
+	display: inline-block;
+	width: 18px; height: 18px;
+	border-radius: 50%;
+	border: 1px solid #e8e8e8;
+}
+.slider-switcher__elem--cheked:before {
+	
+}
 
 
 .from-blog {
 	float: right;
+	position: relative;
 	height: 200px;
 	width: 49%;
-	/*!!!!!!!!!!!!!!!!!*/
+	/*background: red;*/
+	color: #454545;
+}
+.blog-post {
+	padding-left: 66px; 
+	padding-top: 10px;
 }
 .blog-post__h3 {
 	font-family: "Open Sans Extrabold";
 	font-size: 16px;
 	line-height: 24px;
+}
+.blog-post:before {
+	position: absolute;
+	top: 32px; left: 0;
+	content: "";
+	height: 47px; width: 47px;
+	border-radius: 50%;
+}
+.blog-post--1:before {
+	/*position: absolute;
+	top: 32px; left: 0;
+	content: "";
+	height: 47px; width: 47px;
+	border-radius: 50%;*/
+	background: url(../img/blog_bg.jpg) no-repeat;
+	background-position: center center;
+}
+.blog-post--2:before {
+	/*position: absolute;*/
+	top: 82px; left: 0;
+	/*content: "";*/
+	/*height: 47px; width: 47px;*/
+	/*border-radius: 50%;*/
+	background: url(../img/blog_bg.jpg) no-repeat;
+	background-position: 0 0;
+}
+.blog-post--3:before {
+	/*position: absolute;*/
+	top: 132px; left: 0;
+	/*content: "";*/
+	/*height: 47px; width: 47px;*/
+	/*border-radius: 50%;*/
+	background: url(../img/blog_bg.jpg) no-repeat;
+	background-position: -20px -20px;
+}
+.read-more--mod:hover {
+	text-shadow: 0 0 10px #454545;
+}
+.logos {
+	height: 100px;
+	background: url(../img/logos.png) no-repeat;
+	background-position: center center;
 }
